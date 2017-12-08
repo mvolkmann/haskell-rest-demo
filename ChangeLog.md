@@ -1,3 +1,3 @@
-# Changelog for rest-demo
+# Changelog for haskell-rest-demo
 
 ## Unreleased changes

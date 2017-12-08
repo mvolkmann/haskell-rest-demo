@@ -1,10 +1,10 @@
-name:                rest-demo
+name:                haskell-rest-demo
 version:             0.1.0.0
-github:              githubuser/rest-demo
+github:              mvolkmann/haskell-rest-demo
 license:             BSD3
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2017 Author name here
+author:              Mark Volkmann
+maintainer:          r.mark.volkmann@gmail.com
+copyright:           2017 Mark Volkmann
 
 extra-source-files:
 - README.md
@@ -17,7 +17,7 @@ synopsis:            Short description of your package
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on Github at <https://github.com/githubuser/rest-demo#readme>
+description:         Please see the README on Github at <https://github.com/mvolkmann/haskell-rest-demo#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -26,7 +26,7 @@ library:
   source-dirs: src
 
 executables:
-  rest-demo-exe:
+  haskell-rest-demo-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -34,10 +34,10 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - rest-demo
+    - haskell-rest-demo
 
 tests:
-  rest-demo-test:
+  haskell-rest-demo-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:

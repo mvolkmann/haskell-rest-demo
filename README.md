@@ -1,5 +1,8 @@
 # haskell-rest-demo
 
+Read about the scotty library at
+http://adit.io/posts/2013-04-15-making-a-website-with-haskell.html
+
 Steps to create this:
 . enter "stack new haskell-rest-demo"
 . enter "cd haskell-rest-demo"

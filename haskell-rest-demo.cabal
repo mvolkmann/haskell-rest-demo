@@ -6,13 +6,13 @@
 
 name:           haskell-rest-demo
 version:        0.1.0.0
-synopsis:       Short description of your package
+synopsis:       demo of using scotty to implement REST services
 description:    Please see the README on Github at <https://github.com/mvolkmann/haskell-rest-demo#readme>
 homepage:       https://github.com/mvolkmann/haskell-rest-demo#readme
 bug-reports:    https://github.com/mvolkmann/haskell-rest-demo/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2017 Author name here
+author:         R. Mark Volkmann
+maintainer:     r.mark.volkmann@gmail.com
+copyright:      2017 R. Mark Volkmann
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -45,6 +45,7 @@ executable haskell-rest-demo-exe
   build-depends:
       base >=4.7 && <5
     , haskell-rest-demo
+    , scotty
   other-modules:
       Paths_haskell_rest_demo
   default-language: Haskell2010
